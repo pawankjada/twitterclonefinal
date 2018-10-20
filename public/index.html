@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <header>
+        <i class="fab fa-twitter-square"></i> Home
+        <button class="tweet-button" id='newTweet'>Tweet</button>
+    </header>
+
+    <div id='cover'></div>
+
+    <nav>
+        <div class='navbar'>
+            <h1 class='info'> Tweets Following Followers Likes</h1>
+            <h2 class='numbers'>25 40 100 0</h2>
+        </div>
+    </nav>
+
+
+    <main>
+
+
+        <div class='container feed'>
+            <div class='left-feed'>
+                <img id="profile" src="https://vignette.wikia.nocookie.net/avatar/images/4/4b/Zuko.png/revision/latest?cb=20180630112142"
+                    alt="picture of me" height="170px" width="170px" />
+
+
+                <h1 class='identity'> Prince Zuko</h1> <br>
+                <h2 class=join-date> Joined October 2018 </h2> <br>
+                <p class='quote'>Hello, Zuko here. But I guess you probably already know me, sort of. Uh so, the thing
+                    is I have a
+                    lot of Firebending experience and I'm considered to be pretty good at it. Well you've seen me...
+                    you know, when I was attacking you? Uh yeah, I guess I should apologize for that, but anyway I'm
+                    good now. I mean, I thought I was good before but now I realize I was bad, but anyway... I think
+                    it's time I joined your group and taught the Avatar Firebending.</p>
+
+            </div>
+
+            <div class='center-feed'>
+                <div class=tweetmain>
+                    <img id="profile2" src="https://vignette.wikia.nocookie.net/avatar/images/4/4b/Zuko.png/revision/latest?cb=20180630112142"
+                        alt="picture of me" height="50px" width="50px" />
+                    <i id='delete' class="fas fa-trash-alt"></i>
+                    <h1 class='identity2'>Prince Zuko</h1> <span class='tag'> Zuko 1 hr</span>
+
+                    <p class='tweets'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ipsum eros,
+                        aliquet sit amet euismod vitae, consectetur ac eros. Vestibulum vehicula eleifend pellentesque.</p>
+                </div>
+            </div>
+
+            <div class='right-feed'>
+                <h2 class='newtwit'>New to Twitter?</h2>
+                <p class='signup-ad'>Sign up now to get your own personalized timeline!</p>
+                <button class="signup">Sign up</button>
+            </div>
+
+        </div>
+    </main>
+
+    <div class='modal-container hide'>
+        <div class='modal'>
+            <h2> Compose new Tweet <span class='close-modal'>X</span></h2>
+            <textarea id='tweetmaker' rows='10' cols='50' placeholder="what's Happening"></textarea>
+            <button class='tweet-button2' id='tweetpost'> Tweet </button>
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src=app.js></script>
+
+</html>

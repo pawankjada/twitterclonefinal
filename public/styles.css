@@ -1,0 +1,214 @@
+body {
+    display: grid;
+    grid-template-rows: 46px 360px 46px 1fr;
+    min-height: 100vh;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+    background: FFFFFF;
+}
+
+.fab {
+    margin-left: 150px;
+    color: #00aced
+}
+
+.quote {
+    position: relative;
+    bottom: 80px;
+}
+
+.tweet-button {
+    margin-left: 1100px;
+    background-color: #0084b4;
+    color: white;
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    border-color: #0084B4;
+}
+
+.tweet-button2 {
+    margin-left: 550px;
+    position: relative;
+    bottom: 20px;
+    background-color: #0084b4;
+    color: white;
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    border-color: #0084B4;
+}
+
+#cover {
+    background-image: url(http://www.twitrcovers.com/wp-content/uploads/2013/01/Black-and-white-maps-l.jpg);
+    background-image: fill;
+}
+
+nav {
+    background: FFFFFF;
+}
+
+.info {
+    text-align: center;
+    margin-right: 355px;
+    margin-top: 5px;
+    color: #66757F;
+    font-size: 14px;
+}
+
+.numbers {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 355px;
+    word-spacing: 1.2em;
+    color: #66757F;
+}
+
+.navbar:hover h2 {
+    color: blue;
+}
+
+
+main {
+    background: #E6ECF0;
+    color: black
+}
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.feed {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 15px;
+}
+
+.modal-container {
+    background: rgba(20, 23, 26, .7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.center-feed {
+    margin-top: 40px;
+
+}
+
+
+.tweetmain {
+    background-color: white;
+    height: 100px;
+    width: 500px;
+    margin-bottom: 2px;
+    border: 3px;
+    border-color: black;
+    overflow: overlay;
+}
+
+.right-feed {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    margin-top: 40px;
+
+}
+
+.identity {
+    font-weight: bold;
+    position: relative;
+    top: -111px;
+}
+
+.join-date {
+    color: grey;
+    position: relative;
+    top: -100px;
+}
+
+
+.newtwit {
+    font-weight: bold;
+    font-size: 20px
+}
+
+.signup-ad {
+    position: relative;
+    top: 20px
+}
+
+.signup {
+    background-color: #0084b4;
+    color: white;
+    border-radius: 100px;
+    box-shadow: none;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    border-color: #0084B4;
+    padding: 14px 65px;
+    margin-top: 60px;
+    margin-left: 55px;
+}
+
+#profile {
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: -70px;
+    top: -123px;
+}
+
+#profile2 {
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 0px;
+    top: 10px;
+}
+
+.identity2 {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.tag {
+    color: grey;
+}
+
+
+.modal {
+    width: 600px;
+    margin: 40px auto;
+    height: 180px;
+    background: white;
+    padding: 0 15px 10px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.close-modal {
+    position: relative;
+    left: 230px;
+}
+
+.tweets {
+    position: relative;
+    top: 20px;
+}
